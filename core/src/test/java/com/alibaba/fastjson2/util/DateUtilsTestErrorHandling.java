@@ -10,7 +10,6 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 @Tag("util")
 public class DateUtilsTestErrorHandling {
-
     // test needs positive offset for the problem to surface
     private static final String invalidString = ">>1234567890<<";
     private static final int offset = invalidString.indexOf('1');
